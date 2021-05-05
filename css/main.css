@@ -1,0 +1,51 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+#top-navigation {
+    font-family: arial, sans-serif;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#top-navigation-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 12%;
+}
+
+#top-navigation-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 20%;
+}
+
+#link-anmelden {
+    color: white;
+    font-size: 14px;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 8.5px;
+    padding: 9px;
+    text-align: center;
+    width: 100px;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
