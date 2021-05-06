@@ -49,3 +49,42 @@ img {
     justify-content: center;
 }
 
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-container-b {
+    border-top: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between; 
+    align-content: center;
+}
+
+.footer-link {
+    color: #70757a;
+    padding: 15px;
+}
+
+#footer-container-a {
+    padding-left: 15px;
+}
+
+#footer-container-b-1 {
+    display: flex wrap;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+#footer-container-b-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-container-b-3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
