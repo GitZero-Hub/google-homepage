@@ -80,6 +80,22 @@ img {
     width: 100%;
 }
 
+#u-searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.double-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 8.5px;
+    padding: 7px;
+    margin: 7px;
+    text-align: center;
+    width: 140px;
+}
+
 footer {
     background-color: #f2f2f2;
     position: fixed;
