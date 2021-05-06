@@ -16,7 +16,7 @@ img {
     height: 60px;
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 10px;
 }
 
 #top-navigation-left {
@@ -47,6 +47,37 @@ img {
 #logo-container {
     display: flex;
     justify-content: center;
+}
+
+#searchbar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#searchbar {
+    display: flex;
+    align-items: center;
+    flex-basis: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    height: 44px;
+    width: auto;
+    max-width: 584px;
+}
+
+#searchbar:hover {
+    box-shadow: 1px 1px 5px 0.5px rgba(211, 211, 211, 0.3), -1px -1px 5px 0.5px rgba(211, 211, 211, 0.3);
+}
+
+#searchbar-svg {
+    padding: 13px;
+    width: 8%;
+}
+
+#searchbar-input {
+    padding: 10px;
+    width: 100%;
 }
 
 footer {
